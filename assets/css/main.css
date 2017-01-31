@@ -267,7 +267,7 @@
 	}
 
 	.row {
-		margin: 0 0 -1px -2em;
+		/*margin: 0 0 -1px -2em;*/
 	}
 
 	.row.uniform > * {
@@ -2539,11 +2539,13 @@
 			}
 
 		.wrapper.style2 {
-			background: #ffffff;
+      background-image: url('../../images/wood-bg.jpg');
+      background-size: cover;
+			/*background: #337ab7;*/
 		}
 
 		.wrapper.style3 {
-			background: #62bd83;
+			background: #38174b;
 			color: #d1f2f5;
 		}
 
@@ -3463,3 +3465,38 @@
 				}
 
 	}
+
+	[class^="devicon"] {
+		font-size: 5rem;
+	}
+
+  .image:hover {
+    opacity: 0.6;
+  }
+
+  #two {
+    /*background-image: url('../../images/wood-bg.jpg');
+    background-size: cover;*/
+  }
+
+  .services-text {
+    color: #fff;
+    text-shadow: 2px 2px 8px #000000;
+  }
+
+  .devicon {
+    text-shadow: 2px 2px 8px #000000;
+  }
+
+  .devicon:hover {
+    opacity: 0.5;
+    text-shadow: 2px 2px 8px #000000;
+  }
+
+  .bg-primary {
+    background-color: transparent;
+  }
+
+  .skills {
+    font-size: 2.35em;
+  }
