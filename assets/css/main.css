@@ -2541,7 +2541,6 @@
 		.wrapper.style2 {
       background-image: url('../../images/wood-bg.jpg');
       background-size: cover;
-			/*background: #337ab7;*/
 		}
 
 		.wrapper.style3 {
@@ -3480,11 +3479,12 @@
   }
 
   .services-text {
-    color: #fff;
+    color: #f2f2f2;
     text-shadow: 2px 2px 8px #000000;
   }
 
   .devicon {
+    color: #f2f2f2;
     text-shadow: 2px 2px 8px #000000;
   }
 
@@ -3499,4 +3499,8 @@
 
   .skills {
     font-size: 2.35em;
+  }
+
+  .lable {
+    color: #000;
   }
